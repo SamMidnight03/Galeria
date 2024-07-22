@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "PT Serif", serif;
+}
+
+body{
+    background-image: url(./img/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+button{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #c3ab7ed6;
+    border: 2px solid #aa8f5e;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #aa8f5e;
+    border: 2px solid #c3ab7ed6;
+    transition: 0.5s;
+
+}
+
+#Galeria{
+    background-color: #c3ab7ed6;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 1200px;
+    padding: 10px 0;
+    margin: 20px 0;
+
+}
+
+img{
+    width:  280px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0px 0px 93px -16px #8d774e;
+}
